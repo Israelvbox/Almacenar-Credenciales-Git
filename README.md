@@ -1,4 +1,4 @@
- # **Autenticación por HTTPS contra Git en Línea de Comando **
+ # **Autenticación por HTTPS contra Git en Línea de Comando**
 
 ## **Proposito del documento**
 
