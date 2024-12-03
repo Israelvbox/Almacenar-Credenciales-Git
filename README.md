@@ -26,3 +26,10 @@ Este archivo está en texto plano, así que cualquiera que tenga acceso a dicho 
 - Proceso para realizar un push o una operación similar que requiera autenticación.
 - Creación del archivo de credenciales al introducir las credenciales solicitadas.
 - Confirmación de que no será necesario introducir las credenciales nuevamente para este repositorio.
+
+## Pasos a Seguir
+
+### Paso 1: Clonar el repositorio.
+- Clonamos nuestro repositorio e introducimos las credenciales.
+Git clone [url https de nuestro repositorio]
+
