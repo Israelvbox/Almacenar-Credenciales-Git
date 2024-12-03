@@ -9,3 +9,20 @@ Para solucionar esto, git dispone de "credentials.helper", que permite guardar e
 git config credentials.helper store
 lo que creará un archivo llamado .git-credentials o bien .git-credentials-NOMBRE_REPOSITORIO. 
 Este archivo está en texto plano, así que cualquiera que tenga acceso a dicho directorio podrá verlo. Hay que tenerlo en cuenta a la hora de usar este método.
+
+## Instrucciones tecnicas
+
+Clonar el Repositorio
+	Descripción breve del proceso de clonado del repositorio utilizando la URL HTTPS proporcionada.
+	Información sobre la introducción de credenciales.
+  Acceder al Repositorio
+	Detalles sobre cómo acceder a la carpeta del repositorio clonado.
+	Instrucciones para navegar a la ruta del repositorio.
+Configurar Git para Almacenar Credenciales
+	Explicación de cómo configurar Git para almacenar credenciales dentro del repositorio.
+	Introducción del comando específico utilizado para esta configuración.
+	Detalle sobre las opciones y parámetros del comando.
+Realizar un Push para Crear el Archivo de Credenciales
+	Proceso para realizar un push o una operación similar que requiera autenticación.
+	Creación del archivo de credenciales al introducir las credenciales solicitadas.
+	Confirmación de que no será necesario introducir las credenciales nuevamente para este repositorio.
