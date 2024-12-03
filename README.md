@@ -57,6 +57,12 @@ cd  /git/ejemplo
 ```
 git config credential.helper 'store --file .git-credentials-nombrerepo' 
 ```
+- Ejemplo
+```
+git config credential.helper 'store --file .git-credentials-store-git-credentials' 
+```
+
+
 
 ### Paso 4: Realizar un Push para crear el archivo de credenciales.
 
