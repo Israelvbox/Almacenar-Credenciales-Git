@@ -31,5 +31,7 @@ Este archivo está en texto plano, así que cualquiera que tenga acceso a dicho 
 
 ### Paso 1: Clonar el repositorio.
 - Clonamos nuestro repositorio e introducimos las credenciales.
+'''
 Git clone [url https de nuestro repositorio]
+'''
 
