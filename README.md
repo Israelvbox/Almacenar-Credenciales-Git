@@ -35,33 +35,35 @@ Este archivo está en texto plano, así que cualquiera que tenga acceso a dicho 
 Git clone [url https de nuestro repositorio]
 ```
 - Ejemplo
-``
+```
 Git clone  https://gitlab.com/usuairo-de-git/ejemplo.git
-``
+```
 
 ### Paso 2: Acceder al repositorio.
 
 - Accedemos dentro de la carpeta de nuestro repositorio
-``
+```
 cd [ruta de nuestro repositorio]
-``
+```
 - Ejemplo
-``cd  /git/ejemplo
-`` 
+  
+```
+cd  /git/ejemplo
+```
 
 ### Paso 3: Configurar Git para Almacenar Credenciales.
 
 - Nos ubicamos dentro de nuestro repositorio e introduciremos este comando.
-``
+```
 git config credential.helper 'store --file .git-credentials-nombrerepo' 
-``
+```
 
 ### Paso 4: Realizar un Push para crear el archivo de credenciales.
 
 - Con el comando ya introducido, deberemos hacer un push o similar que pida de nuevo las credenciales, cuando las introduzcamos se nos creara el archivo .git-credentials-nombrerepo, ya generado este archivo ya no tendremos que introducir las credenciales en ese repositorio.
-``
+```
 Git push 
-``
+```
 
 ## Expliación de los comandos
 1. git config: Este es el comando principal de Git para configurar opciones. Se utiliza para establecer variables de configuración que controlan el comportamiento de Git.
