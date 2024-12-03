@@ -34,4 +34,43 @@ Este archivo está en texto plano, así que cualquiera que tenga acceso a dicho 
 ```
 Git clone [url https de nuestro repositorio]
 ```
+- Ejemplo
+``
+Git clone  https://gitlab.com/usuairo-de-git/ejemplo.git
+``
+
+### Paso 2: Acceder al repositorio.
+
+- Accedemos dentro de la carpeta de nuestro repositorio
+``
+cd [ruta de nuestro repositorio]
+``
+- Ejemplo
+``cd  /git/ejemplo
+`` 
+
+### Paso 3: Configurar Git para Almacenar Credenciales.
+
+- Nos ubicamos dentro de nuestro repositorio e introduciremos este comando.
+``
+git config credential.helper 'store --file .git-credentials-nombrerepo' 
+``
+
+### Paso 4: Realizar un Push para crear el archivo de credenciales.
+
+- Con el comando ya introducido, deberemos hacer un push o similar que pida de nuevo las credenciales, cuando las introduzcamos se nos creara el archivo .git-credentials-nombrerepo, ya generado este archivo ya no tendremos que introducir las credenciales en ese repositorio.
+``
+Git push 
+``
+
+## Expliación de los comandos
+1. git config: Este es el comando principal de Git para configurar opciones. Se utiliza para establecer variables de configuración que controlan el comportamiento de Git.
+
+2. credential.helper: Este es el nombre de la configuración que estamos ajustando. Los ayudantes de credenciales (credential helpers) son programas que Git usa para almacenar y recuperar credenciales de usuario. Hay varios ayudantes disponibles, como cache, store, y osxkeychain, entre otros.
+
+3. 'store --file ~/.git-credentials-nombrerepo': Esta es la opción específica que estamos pasando al helper de credenciales. Desglosemos esto:
+- store: Indica que vamos a usar el helper de credenciales de tipo "store". Este helper guarda las credenciales en un archivo de texto sin cifrar.-
+-  --file ~/.git-credentials-nombrerepo: Esta opción específica le dice al helper de tipo "store" que use un archivo en particular para guardar las credenciales. En este caso, el archivo se ubicará en el directorio home del usuario y se llamará .git-credentials-nombrerepo.
+
+
 
